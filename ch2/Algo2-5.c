@@ -66,14 +66,58 @@
    printf("%d ",c);
  }
 
+ Status listLength(LinkList L, int &len)
+ {
+	 LNode *p = L->next;
+	 int count = 0;
+
+	 while (p)
+	 {
+		 p = p->next;
+		 count++;
+	 }
+	 len = count;
+	 return OK;
+ }
+
+ Status countList(LinkList L, ElemType x, int &n)
+ {
+	 LNode *p = L->next;
+	 int count = 0;
+	 while (p)
+	 {
+		 if (p->data == x)
+			count++;
+		 p = p->next;
+	 }
+	 n = count;
+	 return OK;
+ }
+
+
+
+
+
+
+
+
+
+
+
  void main()
  {
    int n=5;
-   LinkList La,Lb,Lc;
+   int count;
+   LinkList La, Lb, Lc;
    printf("按非递减顺序, ");
    CreateList2(&La,n); /* 正位序输入n个元素的值 */
    printf("La="); /* 输出链表La的内容 */
    ListTraverse(La,visit);
+
+   countList(La, 10, count);
+   printf("值为%d的结点有%d个\n", 10, count);
+   return;
+
    printf("按非递增顺序, ");
    CreateList(&Lb,n); /* 逆位序输入n个元素的值 */
    printf("Lb="); /* 输出链表Lb的内容 */
@@ -81,4 +125,19 @@
    MergeList(La,&Lb,&Lc); /* 按非递减顺序归并La和Lb,得到新表Lc */
    printf("Lc="); /* 输出链表Lc的内容 */
    ListTraverse(Lc,visit);
+ }
+
+
+ void main2()
+ {
+	 ElemType a;
+	 LinkList L;
+	 InitList(&L);
+	 ListInsert(L, 1, 3);
+	 ListInsert(L, 1, 2);
+	 ListInsert(L, 1, 1);
+	 ListTraverse(L, visit);
+	 ListDelete(L, 1, &a);
+	 ListTraverse(L, visit);
+	 return;
  }

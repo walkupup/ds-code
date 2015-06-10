@@ -1,6 +1,6 @@
  /* algo2-1.c 实现算法2.1的程序 */
  #include"c1.h"
- typedef int ElemType;
+ typedef float ElemType;
  #include"c2-1.h" /* 采用线性表的动态分配顺序存储结构 */
  #include"bo2-1.c" /* 可以使用bo2-1.c中的基本操作 */
 
@@ -29,10 +29,42 @@
 
  void print(ElemType *c)
  {
-   printf("%d ",*c);
+   printf("%f ",*c);
  }
 
  void main()
+ {
+	 ElemType a;
+	 SqList L;
+	 InitList(&L);
+	 ListInsert(&L, 1, 3.3);
+	 ListInsert(&L, 1, 2.2);
+	 ListInsert(&L, 1, 1.1);
+	 ListTraverse(L, print);
+	 ListDelete(&L, 1, &a);
+	 ListTraverse(L, print);
+ }
+
+
+
+
+
+ void main2()
+ {
+	SqList L;
+	ElemType a;
+	InitList(&L);
+	ListInsert(&L, 1, 3.3);
+	ListInsert(&L, 1, 2.2);
+	ListInsert(&L, 1, 1.1);
+	ListTraverse(L, print);
+	ListDelete(&L, 1, &a);
+	ListTraverse(L, print);
+
+ }
+
+
+ void main1()
  {
    SqList La,Lb;
    Status i;
@@ -43,6 +75,14 @@
        i=ListInsert(&La,j,j);
    printf("La= "); /* 输出表La的内容 */
    ListTraverse(La,print);
+
+   int k;
+   for (j = 1; j <= 2; j++) /* 在表La中插入5个元素 */
+	   i = ListDelete(&La, j, &k);
+   ListTraverse(La, print);
+   return;
+
+
    InitList(&Lb); /* 也可不判断是否创建成功 */
    for(j=1;j<=5;j++) /* 在表Lb中插入5个元素 */
      i=ListInsert(&Lb,j,2*j);

@@ -1,23 +1,38 @@
 
 说明：
+
 1. 这是《数据结构》严蔚敏 课本上的对应C语言源代码。
+
+
 
 2. 程序运行需要安装开发环境，如visual studio，然后建立VC工程。
 第二章有一个示例工程，在ch2\ch2\ch2.sln，双击即可打开。
 其余章节需自建工程。
 
+
+
 3. 新建vc工程大致步骤：
+
 1）菜单File，new，project
+
 2）选择win32，选择win32 console application，Name输入工程名，Location输入硬盘目录，点ok。
+
 3）application settings，选empty project，建立工程结束。
+
 4）在source Files 树状目录下点右键，
 add existing item，加入已有的源文件，如ch2下的ALGO2-1.c。
 或者add new item，建立新的cpp源文件，并在新建的源文件中写程序。
+
 5）编译运行，ctrl+F5, 编译F7
+
 6）工程编译时，如果提示错误，找不到头文件，
 需在菜单view，property pages中，c/c++, general, additional include directories 里加入头文件所在目录。
 
+
+
 杨力
+
 中国计量学院信息学院
+
 lyang@cjlu.edu.cn
-2014年2月26日
+2015年3月
