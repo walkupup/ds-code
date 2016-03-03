@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ch1">
+      <UniqueIdentifier>{901e7cda-9edd-4dbe-bb18-660b6c7974ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch2">
+      <UniqueIdentifier>{3278454d-29ee-47af-9fd7-ba3e348845d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch3">
+      <UniqueIdentifier>{353ccaa4-5054-4e6d-a763-267312cb03dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch4">
+      <UniqueIdentifier>{3f2ae29f-ac47-4e69-ae9e-1c065cdf81aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch5">
+      <UniqueIdentifier>{5bf3ed94-e6e3-4ef0-9075-3781e36c7d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch6">
+      <UniqueIdentifier>{28880486-7935-4f0c-bf0d-b004298833b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch7">
+      <UniqueIdentifier>{5d3a6c07-629b-47af-b9be-a608cb86438c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch8">
+      <UniqueIdentifier>{563fedfb-2d91-4802-8775-597f6142e2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch9">
+      <UniqueIdentifier>{a444011b-c2fe-4a24-b6c2-ea1a2e740484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch10">
+      <UniqueIdentifier>{ef5c9b46-e903-4226-aca1-43e146634b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch11">
+      <UniqueIdentifier>{d044f333-b03c-4b3d-a76f-fb1fb31cfb1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch12">
+      <UniqueIdentifier>{3901625a-0c09-430f-a862-4f91fef71a22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ch1\algo1-1.c">
+      <Filter>ch1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch1\algo1-2.c">
+      <Filter>ch1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch1\Bo1-1.c">
+      <Filter>ch1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch1\f.c">
+      <Filter>ch1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch1\main1-1.c">
+      <Filter>ch1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\ALGO2-1.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\Algo2-10.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\Algo2-11.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\algo2-12.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\algo2-13.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\ALGO2-2.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\ALGO2-3.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\ALGO2-4.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\Algo2-5.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\algo2-6.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\Algo2-7.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\Algo2-8.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\Algo2-9.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\bo2-1.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-2.C">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-3.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-31.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-32.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-4.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-5.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-6.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\bo2-7.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\BO2-8.C">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\Bo2-9.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\ch2-vs08\insert_example.cpp">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-1.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-2.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-31.C">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-32.C">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-4.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-5.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-6.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-7.c">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-8.C">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch2\MAIN2-9.C">
+      <Filter>ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-1.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-10.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-11.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-12.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-2.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\algo3-3.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\algo3-4.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-5.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-6.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\Algo3-7.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-8.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\ALGO3-9.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\BO3-1.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\BO3-2.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\BO3-3.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\BO3-4.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\BO3-5.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\MAIN3-1.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\MAIN3-2.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\MAIN3-3.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\MAIN3-4.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch3\MAIN3-5.c">
+      <Filter>ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\ALGO4-1(KMP模式匹配).c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\ALGO4-2(KMP模式匹配改进).c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\algo4-3.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\ALGO4-4.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\ALGO4-5.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\BO4-1.C">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\Bo4-2.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\BO4-3.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\MAIN4-1.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\MAIN4-2.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch4\Main4-3.c">
+      <Filter>ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\ALGO5-1.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\BO5-1.C">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\BO5-2.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\BO5-3.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\BO5-4.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\BO5-5.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\BO5-51.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\BO5-52.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\Bo5-6.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\MAIN5-1.C">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\MAIN5-2.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\MAIN5-3.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\MAIN5-4.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\MAIN5-51.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\MAIN5-52.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch5\Main5-6.c">
+      <Filter>ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\ALGO6-1.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\algo6-2.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\BO6-1.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\bo6-2.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\BO6-3.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\Bo6-4.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\Bo6-5.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\bo6-6.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\Main6-1.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\Main6-2.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\MAIN6-3.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\MAIN6-4.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\MAIN6-5.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch6\main6-6.c">
+      <Filter>ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-1-save007-forstudent.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-1-save007.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-1.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-2.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-3.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-4.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-5.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-6.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Algo7-7.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\BO7-1.C">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Bo7-2.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Bo7-3.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Bo7-4.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\MAIN7-1.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Main7-2.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Main7-3.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch7\Main7-4.c">
+      <Filter>ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch8\algo8-1.c">
+      <Filter>ch8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch8\algo8-2.c">
+      <Filter>ch8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch8\algo8-3.c">
+      <Filter>ch8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\ALGO9-1.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Algo9-2.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Algo9-3.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Algo9-4.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Algo9-5.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Algo9-6.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Algo9-7.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Algo9-8.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\algo9-9.C">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\BO9-1.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\bo9-2.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\BO9-3.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\BO9-4.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Bo9-5.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Bo9-6.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch9\Bo9-7.c">
+      <Filter>ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\alg10-10.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\alg10-11.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\Algo10-1.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\Algo10-2.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\algo10-3.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\algo10-4.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\algo10-5.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\Algo10-6.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\algo10-7.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\algo10-8.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\algo10-9.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\bo10-1.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch10\bo10-2.c">
+      <Filter>ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch11\algo11-1.c">
+      <Filter>ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch11\algo11-2.C">
+      <Filter>ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch11\algo11-3.C">
+      <Filter>ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch11\bo11-1.c">
+      <Filter>ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ch12\algo12-1.c">
+      <Filter>ch12</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ch1\c1-1.h">
+      <Filter>ch1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch1\c1.h">
+      <Filter>ch1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch2\C2-1.H">
+      <Filter>ch2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch2\C2-2.H">
+      <Filter>ch2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch2\C2-3.H">
+      <Filter>ch2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch2\C2-4.H">
+      <Filter>ch2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch2\C2-5.H">
+      <Filter>ch2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch2\C2-6.H">
+      <Filter>ch2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch3\C3-1.H">
+      <Filter>ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch3\C3-2.H">
+      <Filter>ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch3\C3-3.H">
+      <Filter>ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch4\C4-1（顺序存储）.H">
+      <Filter>ch4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch4\C4-2（堆存储）.H">
+      <Filter>ch4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch4\C4-3（链式存储）.H">
+      <Filter>ch4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch5\C5-1.H">
+      <Filter>ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch5\C5-2.H">
+      <Filter>ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch5\C5-3.H">
+      <Filter>ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch5\C5-4.H">
+      <Filter>ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch5\C5-5.H">
+      <Filter>ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch5\C5-6.H">
+      <Filter>ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch6\C6-1.H">
+      <Filter>ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch6\C6-2.H">
+      <Filter>ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch6\C6-3.H">
+      <Filter>ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch6\C6-4.H">
+      <Filter>ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch6\C6-5.H">
+      <Filter>ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch6\c6-6.h">
+      <Filter>ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch6\c6-7.h">
+      <Filter>ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch7\C7-1.H">
+      <Filter>ch7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch7\C7-2.H">
+      <Filter>ch7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch7\C7-3.H">
+      <Filter>ch7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch7\C7-4.H">
+      <Filter>ch7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch8\C8-1.H">
+      <Filter>ch8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch8\C8-2.H">
+      <Filter>ch8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch8\c8-3.H">
+      <Filter>ch8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch9\C9-1.H">
+      <Filter>ch9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch9\c9-2.h">
+      <Filter>ch9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch9\C9-3.h">
+      <Filter>ch9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch9\C9-4.H">
+      <Filter>ch9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch9\C9-5.H">
+      <Filter>ch9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch9\C9-6.H">
+      <Filter>ch9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch9\C9.H">
+      <Filter>ch9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch10\C10-1.H">
+      <Filter>ch10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch10\C10-2.H">
+      <Filter>ch10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ch10\C10-3.H">
+      <Filter>ch10</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
